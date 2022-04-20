@@ -1,0 +1,32 @@
+.wrapper{
+	height: 100%;
+	overflow: hidden;
+	min-height: 100%;
+	padding: 50px;
+}
+body{
+	font-family: tim;
+}
+.block{
+
+}
+.block-firs{
+	display: flex;
+	justify-content: space-around; /*space-between,center,flex-start,flex-end, Можно приминить и эти значения */ 
+
+
+	border: 20px solid red;
+	margin: 0px 0px 20px 0px;
+}
+
+.colum{
+	border: 20px solid green;
+}
+
+.item{
+	background-color: blue;
+	padding: 50px;
+	font-size: 50px;
+	color: #fff;
+	font-weight: 700px;
+}
